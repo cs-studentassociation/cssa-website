@@ -1,2 +1,2 @@
 # cssa-website
-Website for the Computer Science Student Association.
+Welcome to the repository for the Computer Science Student Association!
