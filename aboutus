@@ -2,7 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <title>GRC Code Club - About Us</title>
+
         <style type="text/css">
             body {
                 background-color: gray;
@@ -26,7 +30,7 @@
                  margin-right:auto;
                  text-align:left;
                  width:980px;
-                 height:700px;
+                 height:750px;
                  background-color: rgba(255,255,255,1);
 
             }
@@ -35,13 +39,13 @@
                 background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
                 background-repeat: repeat;
                 background-color: green;
-                height: 150px;
+                height: 160px;
                 width: 100%;
             }
            
             #header #logo {
                 margin-top: 11px;
-                margin-left: 20px;
+                margin-left: 390px;
                 display:inline-block;
             }
             
@@ -217,16 +221,16 @@
                 background-color: green;
                 position: relative;
                 bottom: 0px;
-                height: 150px;
+                height: 100px;
                 width: 100%;
             }
           
         </style>
-    <head>
+    </head>
     
     <body>
         <div id="header">
-           <a href="index.html"><div id="logo"><img src="http://grccodeclub.suzue.tech/images/header_pointerlaptop_trans.png"></div></a>
+           <a href="index.html"><div id="logo"><img src="http://i63.tinypic.com/2u4n56r.png"></div></a>
         </div>
         <div id="container_bg">
             <div id="container">
@@ -242,13 +246,44 @@
                 <div id="main_contents">
                     <ul>
                         <li class="title">About Us</li>
-                        <li class="description">Code Club is ..............................................</li>
-                        <li class="box">
-                            <div>Large box can be used to show an important topic like a latest project </div>
-                        </li>
+                        <li class="description">INSERT TEAM IMAGE HERE <br>Code Club is........</li>
                     </ul>
                 </div>
-                
+
+                <!-- Collapsible Panels-->
+                 <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Location and Operations</a>
+                    </h4>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">12:00p - 1:00p Daily<br>Technology Center Room 120
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Officers and Leaders</a>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">blah blah blah blah blah</div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Join and get started</a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">Insert info on how to get started</div>
+                  </div>
+                </div>
+              </div> 
             </div>
         </div>
         <div id="footer">FOOTER</div>
