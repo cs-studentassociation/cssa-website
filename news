@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GRC Code Club - About Us</title>
+        <style type="text/css">
+            body {
+                background-color: gray;
+                margin: 0px;
+            }
+            
+            h1 {
+                color: maroon;
+                margin-left: 40px;
+            }
+
+            #container_bg {
+                background-image : url(http://grccodeclub.suzue.tech/images/bgimage_bw.png);
+                background-size: cover;
+                -moz-background-size:cover;
+            }
+            
+            #container {
+                 position: relative;
+                 margin-left:auto;
+                 margin-right:auto;
+                 text-align:left;
+                 width:980px;
+                 height:700px;
+                 background-color: rgba(255,255,255,1);
+
+            }
+            
+            #header {
+                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
+                background-repeat: repeat;
+                background-color: green;
+                height: 150px;
+                width: 100%;
+            }
+           
+            #header #logo {
+                margin-top: 11px;
+                margin-left: 20px;
+                display:inline-block;
+            }
+            
+            .tab_bar{
+                position:relative; 
+                height: 50px;
+                background-color:rgba(212,212,212,1); 
+                width:100%;
+            }
+         
+            .home{
+                position: absolute;
+                top: 15px;
+                left: 80px; 
+                color:rgba(60,60,60,1); 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .home:hover{
+                position: absolute;
+                top: 15px;
+                left: 80px; 
+                color:white; 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+       
+            .about_us{
+                position: absolute;
+                top: 15px;
+                left: 190px; 
+                color:rgba(60,60,60,1); 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .about_us:hover{
+                position: absolute;
+                top: 15px;
+                left: 190px; 
+                color:white; 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .projects{
+                position: absolute;
+                top: 15px;
+                left: 340px; 
+                color:rgba(60,60,60,1); 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .projects:hover{
+                position: absolute;
+                top: 15px;
+                left: 340px; 
+                color:white; 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .news{
+                position: absolute;
+                top: 15px;
+                left: 490px; 
+                color:rgba(60,60,60,1); 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .news:hover{
+                position: absolute;
+                top: 15px;
+                left: 490px; 
+                color:white; 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .resources{
+                position: absolute;
+                top: 15px;
+                left: 600px; 
+                color:rgba(60,60,60,1); 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .resources:hover{
+                position: absolute;
+                top: 15px;
+                left: 600px; 
+                color:white; 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .contact_us{
+                position: absolute;
+                top: 15px;
+                left: 770px; 
+                color:rgba(60,60,60,1); 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .contact_us:hover{
+                position: absolute;
+                top: 15px;
+                left: 770px; 
+                color:white; 
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .main_contents{
+                position: absolute;
+                margin: 20px;
+                foreground-color:black; 
+                font-family: calibri; 
+                font-size: 20px;
+                font-weight: bold; 
+            }
+            
+            #main_contents{
+                position: relative;
+                width: 890px;
+                margin: 45px;
+            }
+            
+            #main_contents ul {
+                list-style-type: none;
+                padding-left: 0;
+                font-size: 18px;
+            }
+            
+            #main_contents li:not(:last-child) {
+                margin-bottom: 10px;
+            }
+            
+            #main_contents ul li.title{
+                font-size: 22px;
+                font-weight: bold;
+                text-align:center;
+            }
+            
+            #main_contents ul li.description{
+            }
+            
+            #main_contents ul li.box{
+                height: 600px;
+                background-color: rgba(240,250,209,1);
+            }
+
+            #footer{
+                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
+                background-repeat: repeat;
+                background-color: green;
+                position: relative;
+                bottom: 0px;
+                height: 150px;
+                width: 100%;
+            }
+            
+            /* the followings are under testing */
+            
+            /* this is the parent element of li.day and li.description,
+               so we can move redundant settings in children to this parent.
+            */
+            #main_contents ul.test{
+                font-family:Lato;
+                font-size:16px;
+            }
+            
+            #main_contents ul.test li.day{
+                box-sizing: border-box;
+                color:rgb(77, 79, 81);
+                display:list-item;
+                float:left;
+                
+                
+                height:76px;
+                line-height:24px;
+                list-style-image:none;
+                list-style-position:outside;
+                list-style-type:none;
+                margin-bottom:8px;
+                min-height:1px;
+                padding-left:15px;
+                padding-right:15px;
+                position:relative;
+                text-align:center;
+                width:54.6563px;
+            }
+            
+            #main_contents ul.test li.description{
+                box-sizing: border-box;
+                color: rgb(77, 79, 81);
+                display:list-item;
+                float:left;
+                
+                
+                height:150px;
+                line-height:24px;
+                list-style-image:none;
+                list-style-position:outside;
+                list-style-type:none;
+                margin-bottom:8px;
+                margin-left:0px;
+                min-height:1px;
+                padding-left:15px;
+                padding-right:15px;
+                position:relative;
+                text-align:left;
+                width:437.328px;
+            }
+          
+        </style>
+    <head>
+    
+    <body>
+        <div id="header">
+           <a href="index.html"><div id="logo"><img src="http://grccodeclub.suzue.tech/images/header_pointerlaptop_trans.png"></div></a>
+        </div>
+        <div id="container_bg">
+            <div id="container">
+                <div class="tab_bar">
+                    <a href="index.html"><div class="home">HOME</div></a>
+                    <a href="aboutus.html"><div class="about_us">ABOUT US</div></a>
+                    <a href="projects.html"><div class="projects">PROJECTS</div></a>
+                    <a href="news.html"><div class="news">NEWS</div><a/>
+                    <a href="resources.html"><div class="resources">RESOURCES</div></a>
+                    <a href="contactus.html"><div class="contact_us">CONTACT US</div></a>
+                </div>
+                
+                <div id="main_contents">
+                    <ul>
+                        <li class="title">News</li>
+                        <li class="box">
+                            <div>Large box can be used to show an important topic like a latest project </div>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                    
+                    </ul>
+                    
+                    <!-- start: example by nobu -->
+                    <ul class="test">
+                        <li class="day">
+                            <p>20</p>
+                            <p>TUE</p>
+                            <p>OCT</p>
+                        </li>
+                        <li class="description">
+                            <h4>TITLE</h4>
+                            <p>Date</p>
+                            <p>Author</p>
+                            <div></div>
+                        </li>
+                    </ul>
+                    <!-- end: example by nobu -->
+                    <!-- https://sfcollege.collegiatelink.net/organization/tcpc/news-->
+                    <!-- the link above is the "template for how our news page will look like"-->
+                </div>
+                
+            </div>
+        </div>
+        <div id="footer">FOOTER</div>
+    </body>
+</html>
