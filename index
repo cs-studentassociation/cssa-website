@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GRC Code Club</title>
+        <style type="text/css">
+            body {
+                background-color: gray;
+                margin: 0px;
+            }
+            
+            h1 {
+                color: maroon;
+                margin-left: 40px;
+            }
+
+            #container_bg {
+                background-image : url(http://grccodeclub.suzue.tech/images/bgimage_bw.png);
+                background-size: cover;
+                -moz-background-size:cover;
+            }
+            
+            #container {
+                 position: relative;
+                 margin-left:auto;
+                 margin-right:auto;
+                 text-align:left;
+                 width:980px;
+                 height:700px;
+                 background-color: rgba(255,255,255,0.6);
+
+            }
+            
+            #header {
+                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
+                background-repeat: repeat;
+                background-color: green;
+                height: 150px;
+                width: 100%;
+            }
+           
+            #header #logo {
+                margin-top: 11px;
+                margin-left: 20px;
+                display:inline-block;
+            }
+
+            #footer{
+                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
+                background-repeat: repeat;
+                background-color: green;
+                position: absolute;
+                top: 780px;
+                height: 150px;
+                width: 100%;
+            }
+            
+            .column_a{
+                position: absolute; 
+                top: 50px;
+                left: 50px;
+                height: 350px;
+                width: 250px;
+            }
+            
+            .column_b{
+                position: absolute; 
+                top: 50px;
+                left: 320px;
+                height: 165px;
+                width: 340px;
+                background-color: blue;
+            }
+            
+            .column_d{
+                position: absolute; 
+                top: 235px;
+                left: 320px;
+                height: 165px;
+                width: 340px;
+                background-color: blue;
+            }
+            
+            .column_e{
+                position: absolute; 
+                top: 50px;
+                left: 680px;
+                height: 350px;
+                width: 250px;
+                background-color: blue;
+            }
+            
+            .column_f{
+                position: absolute; 
+                top: 420px;
+                left: 50px;
+                height: 160px;
+                width: 340px;
+                background-color: blue;
+            }
+            
+            .column_g{
+                position: absolute; 
+                top: 420px;
+                left: 410px;
+                height: 160px;
+                width: 160px;
+                background-color: blue;
+            }
+            
+            .column_h{
+                position: absolute; 
+                top: 420px;
+                left: 590px;
+                height: 160px;
+                width: 340px;
+                background-color: blue;
+            }
+          
+        </style>
+    <head>
+    
+    <body>
+        <div id="header">
+           <a href="index.html"><div id="logo"><img src="http://grccodeclub.suzue.tech/images/header_pointerlaptop_trans.png"></div></a>
+        </div>
+        <div id="container_bg">
+            <div id="container">
+                <div class="column_a"
+                     style="background:url(http://grccodeclub.suzue.tech/images/column_a.png);"
+                     onMouseOver="this.style.background='url(http://grccodeclub.suzue.tech/images/hovercolumn_a.png)';"
+                     onMouseOut="this.style.background='url(http://grccodeclub.suzue.tech/images/column_a.png)';">
+                </div>
+                <div class="column_b">
+                </div>
+                <div class="column_d">
+                </div>
+                <a href="aboutus.html"><div class="column_e"
+                    style="background:url(http://grccodeclub.suzue.tech/images/column_e.png);"
+                    onMouseOver="this.style.background='url(http://grccodeclub.suzue.tech/images/hovercolumn_e.png)';"
+                    onMouseOut="this.style.background='url(http://grccodeclub.suzue.tech/images/column_e.png)';">
+                </div></a>
+                <div class="column_f"
+                     style="background:url(http://grccodeclub.suzue.tech/images/column_f.png);"
+                     onMouseOver="this.style.background='url(http://grccodeclub.suzue.tech/images/hovercolumn_f.png)';"
+                     onMouseOut="this.style.background='url(http://grccodeclub.suzue.tech/images/column_f.png)';">
+                </div>
+                <div class="column_g">
+                </div>
+                <div class="column_h"
+                     style="background:url(http://grccodeclub.suzue.tech/images/column_h.png);"
+                     onMouseOver="this.style.background='url(http://grccodeclub.suzue.tech/images/hovercolumn_h.png)';"
+                     onMouseOut="this.style.background='url(http://grccodeclub.suzue.tech/images/column_h.png)';">
+                </div>
+            </div>
+        </div>
+        <div id="footer">FOOTER</div>
+    </body>
+</html>
