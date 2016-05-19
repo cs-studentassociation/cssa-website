@@ -61,7 +61,7 @@
                 position: absolute;
                 top: 15px;
                 left: 80px; 
-                color:rgba(97,97,97,1);  
+                color:rgba(88,88,88,1);  
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -81,7 +81,7 @@
                 position: absolute;
                 top: 15px;
                 left: 190px; 
-                color:rgba(97,97,97,1); 
+                color:rgba(88,88,88,1); 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -101,7 +101,7 @@
                 position: absolute;
                 top: 15px;
                 left: 340px; 
-                color:rgba(97,97,97,1); 
+                color:rgba(88,88,88,1); 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -121,7 +121,7 @@
                 position: absolute;
                 top: 15px;
                 left: 490px; 
-                color:rgba(97,97,97,1);
+                color:rgba(88,88,88,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -141,7 +141,7 @@
                 position: absolute;
                 top: 15px;
                 left: 600px; 
-                color:rgba(97,97,97,1);
+                color:rgba(88,88,88,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -161,7 +161,7 @@
                 position: absolute;
                 top: 15px;
                 left: 770px; 
-                color:rgba(97,97,97,1);
+                color:rgba(88,88,88,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
