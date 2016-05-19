@@ -53,7 +53,7 @@
             .tab_bar{
                 position:relative; 
                 height: 50px;
-                background-color:rgb(77,140,76); 
+                background-color:rgba(209,209,209,1); 
                 width:100%;
             }
          
@@ -61,7 +61,7 @@
                 position: absolute;
                 top: 15px;
                 left: 80px; 
-                color:white; 
+                color:rgba(97,97,97,1);  
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -75,14 +75,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold;
-                text-decoration: underline; 
             }
        
             .about_us{
                 position: absolute;
                 top: 15px;
                 left: 190px; 
-                color:white; 
+                color:rgba(97,97,97,1); 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -96,14 +95,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .projects{
                 position: absolute;
                 top: 15px;
                 left: 340px; 
-                color:white; 
+                color:rgba(97,97,97,1); 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -117,14 +115,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .news{
                 position: absolute;
                 top: 15px;
                 left: 490px; 
-                color:white; 
+                color:rgba(97,97,97,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -138,14 +135,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .resources{
                 position: absolute;
                 top: 15px;
                 left: 600px; 
-                color:white; 
+                color:rgba(97,97,97,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -159,14 +155,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .contact_us{
                 position: absolute;
                 top: 15px;
                 left: 770px; 
-                color:white; 
+                color:rgba(97,97,97,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -180,7 +175,6 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .main_contents{
@@ -254,8 +248,6 @@
                     <ul>
                         <li class="title">About Us</li>
                         <li class="description"><center><img src="http://www.proprofs.com/quiz-school/topic_images/p19c7ebf8va58mc51mdqteg14453.jpg">
-                        
-
                         <br><i>One class to rule them all, one scanner object to find them, one array to bring them all, <br>and in the main method bind them</i></center></li>
                     </ul>
                 </div>
