@@ -207,7 +207,7 @@
             }
             
             #main_contents ul li.box{
-                height: 600px;
+                height: 150px;
                 background-color: rgba(240,250,209,1);
             }
 
@@ -257,7 +257,7 @@
                 color: rgb(77, 79, 81);
                 display:list-item;
                 float:left;
-                
+                background-color: rgb(129, 168, 95);
                 
                 height:150px;
                 line-height:24px;
@@ -271,7 +271,7 @@
                 padding-right:15px;
                 position:relative;
                 text-align:left;
-                width:437.328px;
+                width:800.328px;
             }
           
         </style>
@@ -305,16 +305,25 @@
                     </ul>
                     
                     <!-- start: example by nobu -->
+					<!-- small cosmetic change by Peter -->
                     <ul class="test">
                         <li class="day">
-                            <p>20</p>
-                            <p>TUE</p>
-                            <p>OCT</p>
+                            <p>day month year</p>
                         </li>
                         <li class="description">
-                            <h4>TITLE</h4>
-                            <p>Date</p>
-                            <p>Author</p>
+                            <h5>TITLE</h5>
+                            <p>stuff</p>
+                            <div></div>
+                        </li>
+                    </ul>
+                    <!-- end: example by nobu -->
+					<ul class="test">
+                        <li class="day">
+                            <p>day month year</p>
+                        </li>
+                        <li class="description">
+                            <h5>TITLE</h5>
+                            <p>stuff</p>
                             <div></div>
                         </li>
                     </ul>
