@@ -37,7 +37,7 @@
             }
             
             #header {
-                background-image: url(http://i67.tinypic.com/14xmnsz.png);
+                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
                 background-repeat: repeat;
                 height: 150px;
                 width: 100%;
@@ -223,7 +223,7 @@
             }
 
             #footer{
-                background-image: url(http://i67.tinypic.com/14xmnsz.png);
+                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
                 background-repeat: repeat;
                 background-color: green;
                 position: relative;
