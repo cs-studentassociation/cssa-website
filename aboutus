@@ -30,29 +30,30 @@
                  margin-right:auto;
                  text-align:left;
                  width:980px;
-                 height:750px;
+                 height:700px;
                  background-color: rgba(255,255,255,1);
+                 overflow: auto;
 
             }
             
             #header {
-                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
+                background-image: url(http://i67.tinypic.com/14xmnsz.png);
                 background-repeat: repeat;
-                background-color: green;
-                height: 160px;
+                height: 150px;
                 width: 100%;
+                text-align:center;
             }
            
             #header #logo {
-                margin-top: 11px;
-                margin-left: 390px;
-                display:inline-block;
+                width:886;
+                height: 150;
+                margin:0 auto;
             }
             
             .tab_bar{
                 position:relative; 
                 height: 50px;
-                background-color:rgba(212,212,212,1); 
+                background-color:rgb(77,140,76); 
                 width:100%;
             }
          
@@ -60,7 +61,7 @@
                 position: absolute;
                 top: 15px;
                 left: 80px; 
-                color:rgba(60,60,60,1); 
+                color:white; 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -73,14 +74,15 @@
                 color:white; 
                 font-family: helvetica; 
                 font-size: 18px;
-                font-weight: bold; 
+                font-weight: bold;
+                text-decoration: underline; 
             }
        
             .about_us{
                 position: absolute;
                 top: 15px;
                 left: 190px; 
-                color:rgba(60,60,60,1); 
+                color:white; 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -94,13 +96,14 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
+                text-decoration: underline; 
             }
             
             .projects{
                 position: absolute;
                 top: 15px;
                 left: 340px; 
-                color:rgba(60,60,60,1); 
+                color:white; 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -114,13 +117,14 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
+                text-decoration: underline; 
             }
             
             .news{
                 position: absolute;
                 top: 15px;
                 left: 490px; 
-                color:rgba(60,60,60,1); 
+                color:white; 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -134,13 +138,14 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
+                text-decoration: underline; 
             }
             
             .resources{
                 position: absolute;
                 top: 15px;
                 left: 600px; 
-                color:rgba(60,60,60,1); 
+                color:white; 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -154,13 +159,14 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
+                text-decoration: underline; 
             }
             
             .contact_us{
                 position: absolute;
                 top: 15px;
                 left: 770px; 
-                color:rgba(60,60,60,1); 
+                color:white; 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -174,6 +180,7 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
+                text-decoration: underline; 
             }
             
             .main_contents{
@@ -216,7 +223,7 @@
             }
 
             #footer{
-                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
+                background-image: url(http://i67.tinypic.com/14xmnsz.png);
                 background-repeat: repeat;
                 background-color: green;
                 position: relative;
@@ -230,7 +237,7 @@
     
     <body>
         <div id="header">
-           <a href="index.html"><div id="logo"><img src="http://i63.tinypic.com/2u4n56r.png"></div></a>
+           <a href="index.html"><div id="logo"><img src="http://i66.tinypic.com/21d7xw.png"></div></a>
         </div>
         <div id="container_bg">
             <div id="container">
@@ -246,7 +253,10 @@
                 <div id="main_contents">
                     <ul>
                         <li class="title">About Us</li>
-                        <li class="description">INSERT TEAM IMAGE HERE <br>Code Club is........</li>
+                        <li class="description"><center><img src="http://www.proprofs.com/quiz-school/topic_images/p19c7ebf8va58mc51mdqteg14453.jpg">
+                        
+
+                        <br><i>One class to rule them all, one scanner object to find them, one array to bring them all, <br>and in the main method bind them</i></center></li>
                     </ul>
                 </div>
 
@@ -270,7 +280,7 @@
                     </h4>
                   </div>
                   <div id="collapse2" class="panel-collapse collapse">
-                    <div class="panel-body">blah blah blah blah blah</div>
+                    <div class="panel-body">bhttp://i64.tinypic.com/10zz8ds.png<br> http://i64.tinypic.com/awp9w5.png<br> i might need these later (dark green footer/light green footer)</div>
                   </div>
                 </div>
                 <div class="panel panel-default">
@@ -286,6 +296,6 @@
               </div> 
             </div>
         </div>
-        <div id="footer">FOOTER</div>
+        <div id="footer"></div>
     </body>
 </html>
