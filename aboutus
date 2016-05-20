@@ -32,8 +32,7 @@
                  width:980px;
                  height:700px;
                  background-color: rgba(255,255,255,1);
-                 overflow: auto;
-
+				 overflow: auto;
             }
             
             #header {
@@ -49,10 +48,21 @@
                 height: 150;
                 margin:0 auto;
             }
+			
+			.tab_container{
+				position:relative;
+				margin-left:auto;
+                margin-right:auto;
+                text-align:left;
+                width:980px;
+                height:50px;
+                background-color: rgba(255,255,255,1);
+			}
             
             .tab_bar{
                 position:relative; 
                 height: 50px;
+				width: 100%;
                 background-color:rgba(209,209,209,1); 
                 width:100%;
             }
@@ -190,6 +200,7 @@
                 position: relative;
                 width: 890px;
                 margin: 45px;
+				overflow: auto;
             }
             
             #main_contents ul {
@@ -234,16 +245,17 @@
            <a href="index.html"><div id="logo"><img src="http://i67.tinypic.com/2utkz82.png"></div></a>
         </div>
         <div id="container_bg">
+			<div class="tab_container">
+				<div class="tab_bar" align="center">
+                <a href="index.html"><div class="home">HOME</div></a>
+                <a href="aboutus.html"><div class="about_us">ABOUT US</div></a>
+                <a href="projects.html"><div class="projects">PROJECTS</div></a>
+                <a href="news.html"><div class="news">NEWS</div><a/>
+                <a href="resources.html"><div class="resources">RESOURCES</div></a>
+                <a href="contactus.html"><div class="contact_us">CONTACT US</div></a>
+				</div>
+			</div>
             <div id="container">
-                <div class="tab_bar">
-                    <a href="index.html"><div class="home">HOME</div></a>
-                    <a href="aboutus.html"><div class="about_us">ABOUT US</div></a>
-                    <a href="projects.html"><div class="projects">PROJECTS</div></a>
-                    <a href="news.html"><div class="news">NEWS</div><a/>
-                    <a href="resources.html"><div class="resources">RESOURCES</div></a>
-                    <a href="contactus.html"><div class="contact_us">CONTACT US</div></a>
-                </div>
-                
                 <div id="main_contents">
                     <ul>
                         <li class="title">About Us</li>
@@ -253,39 +265,38 @@
                 </div>
 
                 <!-- Collapsible Panels-->
-                 <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Location and Operations</a>
-                    </h4>
-                  </div>
-                  <div id="collapse1" class="panel-collapse collapse in">
-                    <div class="panel-body">12:00p - 1:00p Daily<br>Technology Center Room 120
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Officers and Leaders</a>
-                    </h4>
-                  </div>
-                  <div id="collapse2" class="panel-collapse collapse">
-                    <div class="panel-body">bhttp://i64.tinypic.com/10zz8ds.png<br> http://i64.tinypic.com/awp9w5.png<br> i might need these later (dark green footer/light green footer)</div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Join and get started</a>
-                    </h4>
-                  </div>
-                  <div id="collapse3" class="panel-collapse collapse">
-                    <div class="panel-body">Insert info on how to get started</div>
-                  </div>
-                </div>
-              </div> 
+                <div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Location and Operations</a>
+							</h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse in">
+							<div class="panel-body">12:00p - 1:00p Daily<br>Technology Center Room 120</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Officers and Leaders</a>
+							</h4>
+						</div>
+						<div id="collapse2" class="panel-collapse collapse">
+							<div class="panel-body">bhttp://i64.tinypic.com/10zz8ds.png<br> http://i64.tinypic.com/awp9w5.png<br> i might need these later (dark green footer/light green footer)</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Join and get started</a>
+							</h4>
+						</div>
+						<div id="collapse3" class="panel-collapse collapse">
+							<div class="panel-body">Insert info on how to get started</div>
+						</div>
+					</div>
+				</div> 
             </div>
         </div>
         <div id="footer"></div>
