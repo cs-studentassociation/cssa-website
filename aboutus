@@ -198,6 +198,7 @@
             
             #main_contents{
                 position: relative;
+				font-family: calibri;
                 width: 890px;
                 margin: 45px;
 				overflow: auto;
@@ -260,8 +261,8 @@
                     <ul>
                         <li class="title">About Us</li>
                         <li class="description"><center><img src="http://www.proprofs.com/quiz-school/topic_images/p19c7ebf8va58mc51mdqteg14453.jpg">
-                        <br><i>One class to rule them all, one scanner object to find them, one array to bring them all, <br>and in the main method bind them</i></center></li>
-                    </ul>
+						<li>Computer Science Student Association is ...</li>
+					</ul>
                 </div>
 
                 <!-- Collapsible Panels-->
