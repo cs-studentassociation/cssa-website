@@ -56,14 +56,14 @@
                 text-align:left;
                 width:980px;
                 height:50px;
-                background-color: rgba(255,255,255,1);
+                background-color: white;
 			}
             
             .tab_bar{
                 position:relative; 
                 height: 50px;
 				width: 100%;
-                background-color:rgba(209,209,209,1); 
+                background-color:rgba(212,212,212,1); 
                 width:100%;
             }
          
@@ -91,7 +91,7 @@
                 position: absolute;
                 top: 15px;
                 left: 190px; 
-                color:rgba(88,88,88,1); 
+                color:rgba(60,60,60,1); 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -111,7 +111,7 @@
                 position: absolute;
                 top: 15px;
                 left: 340px; 
-                color:rgba(88,88,88,1); 
+                color:rgba(60,60,60,1); 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -131,7 +131,7 @@
                 position: absolute;
                 top: 15px;
                 left: 490px; 
-                color:rgba(88,88,88,1);
+                color:rgba(60,60,60,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -151,7 +151,7 @@
                 position: absolute;
                 top: 15px;
                 left: 600px; 
-                color:rgba(88,88,88,1);
+                color:rgba(60,60,60,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -171,7 +171,7 @@
                 position: absolute;
                 top: 15px;
                 left: 770px; 
-                color:rgba(88,88,88,1);
+                color:rgba(60,60,60,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -220,13 +220,48 @@
                 text-align:center;
             }
             
-            #main_contents ul li.description{
+            .team_photo{
+				height:300px;
+				width:600px;
             }
+			
+			#main_contents ul li.description{
+				font-family: calibri; 
+				font-size: 16px;
+			}
             
             #main_contents ul li.box{
                 height: 600px;
                 background-color: rgba(240,250,209,1);
             }
+			
+			.panel-title{
+				font-family: helvetica;
+				font-size: 16px;
+				font-weight: bold;
+			}
+			
+			.officer_table{
+				align:center;
+			}
+			
+			#officer_names{
+				font-family:helvetica;
+				font-size:16px;
+				font-weight:bold;
+			}
+			
+			#officer_description{
+				font-family: calibri;
+				font-size: 14px;
+			}
+			
+			.photo{
+				height:250px;
+				width:190px;
+				padding-right:10px;
+				padding-bottom:25px;
+			}
 
             #footer{
                 background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
@@ -260,8 +295,8 @@
                 <div id="main_contents">
                     <ul>
                         <li class="title">About Us</li>
-                        <li class="description"><center><img src="http://www.proprofs.com/quiz-school/topic_images/p19c7ebf8va58mc51mdqteg14453.jpg">
-						<li>Computer Science Student Association is ...</li>
+                        <li><center><img src="https://cdn.makespace.com/s/img/about/team/makespace-team.jpg" class="team_photo""></li>
+						<li class="description"><br>Computer Science Student Association is ...</li>
 					</ul>
                 </div>
 
@@ -274,23 +309,96 @@
 							</h4>
 						</div>
 						<div id="collapse1" class="panel-collapse collapse in">
-							<div class="panel-body">12:00p - 1:00p Daily<br>Technology Center Room 120</div>
+							<div class="panel-body">
+							12:00PM - 1:00PM Daily<br>
+							Technology Center Room (TC) 120
+							</div>
 						</div>
 					</div>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Officers and Leaders</a>
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Officers</a>
 							</h4>
 						</div>
 						<div id="collapse2" class="panel-collapse collapse">
-							<div class="panel-body">bhttp://i64.tinypic.com/10zz8ds.png<br> http://i64.tinypic.com/awp9w5.png<br> i might need these later (dark green footer/light green footer)</div>
+							<div class="panel-body">
+								<table class="officer_table" align="center">
+									<tr>
+										<td><img class="photo" ></td>
+										<td width="50px"></td>
+										<td valign="top">
+											<div id="officer_names">Nathan Strand - President<div><br>
+											<div id="officer_description">
+											......</br>
+											......
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><img class="photo" src=""/></td>
+										<td width="50px"></td>
+										<td valign="top">
+											<div id="officer_names">Sandy Yohan - Vice President<div><br>
+											<div id="officer_description">
+											Major : Computer Engineering</br>
+											Email : <a href="mailto:vicepresident@cssa.greenrivertech.net">vicepresident@cssa.greenrivertech.net</a></br>
+											......
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><img class="photo" src=""/></td>
+										<td width="50px"></td>
+										<td valign="top">
+											<div id="officer_names">Stas Katrechko - Webmaster<div><br>
+											<div id="officer_description">
+											......</br>
+											......
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><img class="photo" src=""/></td>
+										<td width="50px"></td>
+										<td valign="top">
+											<div id="officer_names">Alyssa Leano - Design Lead<div><br>
+											<div id="officer_description">
+											......</br>
+											......
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><img class="photo" src=""/></td>
+										<td width="50px"></td>
+										<td valign="top">
+											<div id="officer_names">Jia Na (Vera) - Treasurer<div><br>
+											<div id="officer_description">
+											......</br>
+											......
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><img class="photo" src=""/></td>
+										<td width="50px"></td>
+										<td valign="top">
+											<div id="officer_names">Andrew Chimbanga - Head of Marketing<div><br>
+											<div id="officer_description">
+											......</br>
+											......
+											</div>
+										</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 					</div>
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Join and get started</a>
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Get Started</a>
 							</h4>
 						</div>
 						<div id="collapse3" class="panel-collapse collapse">
