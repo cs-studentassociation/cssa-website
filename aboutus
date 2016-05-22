@@ -33,11 +33,10 @@
                  height:700px;
                  background-color: rgba(255,255,255,1);
                  overflow: auto;
-
             }
             
             #header {
-                background-image: url(http://i67.tinypic.com/14xmnsz.png);
+                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
                 background-repeat: repeat;
                 height: 150px;
                 width: 100%;
@@ -50,10 +49,21 @@
                 margin:0 auto;
             }
             
+            .tab_container{
+                position:relative;
+                margin-left:auto;
+                margin-right:auto;
+                text-align:left;
+                width:980px;
+                height:50px;
+                background-color: white;
+            }
+            
             .tab_bar{
                 position:relative; 
                 height: 50px;
-                background-color:rgb(77,140,76); 
+                width: 100%;
+                background-color:rgba(212,212,212,1); 
                 width:100%;
             }
          
@@ -61,7 +71,7 @@
                 position: absolute;
                 top: 15px;
                 left: 80px; 
-                color:white; 
+                color:rgba(88,88,88,1);  
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -75,14 +85,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold;
-                text-decoration: underline; 
             }
        
             .about_us{
                 position: absolute;
                 top: 15px;
                 left: 190px; 
-                color:white; 
+                color:rgba(60,60,60,1); 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -96,14 +105,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .projects{
                 position: absolute;
                 top: 15px;
                 left: 340px; 
-                color:white; 
+                color:rgba(60,60,60,1); 
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -117,14 +125,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .news{
                 position: absolute;
                 top: 15px;
                 left: 490px; 
-                color:white; 
+                color:rgba(60,60,60,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -138,14 +145,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .resources{
                 position: absolute;
                 top: 15px;
                 left: 600px; 
-                color:white; 
+                color:rgba(60,60,60,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -159,14 +165,13 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .contact_us{
                 position: absolute;
                 top: 15px;
                 left: 770px; 
-                color:white; 
+                color:rgba(60,60,60,1);
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
@@ -180,7 +185,6 @@
                 font-family: helvetica; 
                 font-size: 18px;
                 font-weight: bold; 
-                text-decoration: underline; 
             }
             
             .main_contents{
@@ -194,8 +198,10 @@
             
             #main_contents{
                 position: relative;
+                font-family: calibri;
                 width: 890px;
                 margin: 45px;
+                overflow: auto;
             }
             
             #main_contents ul {
@@ -214,16 +220,60 @@
                 text-align:center;
             }
             
+            .team_photo{
+                height:300px;
+                width:600px;
+            }
+            
             #main_contents ul li.description{
+                font-family: "Oswald Medium", sans-serif; 
+                font-size: 18px;
+                text-align:center;
             }
             
             #main_contents ul li.box{
                 height: 600px;
                 background-color: rgba(240,250,209,1);
             }
+            
+            .panel-title{
+                font-family: helvetica;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            
+            .officer_table{
+                align:center;
+            }
+
+            #officer_title{
+                font-family:tahoma;
+                font-size:16px;
+                font-weight:bold;
+            }
+            
+            #officer_names{
+                font-family:"Oswald Medium", sans-serif;
+                font-size:30px;
+                font-weight:bold;
+                color:rgb(106,192,108);
+            }
+            
+            #officer_description{
+                font-family: calibri;
+                font-size: 14px;
+                color:black;
+            }
+            
+            .photo{
+                height:250px;
+                width:190px;
+                padding-right:10px;
+                padding-bottom:25px;
+            }
 
             #footer{
-                background-image: url(http://i67.tinypic.com/14xmnsz.png);
+                background-image: url(http://grccodeclub.suzue.tech/images/footerheader.png);
                 background-repeat: repeat;
                 background-color: green;
                 position: relative;
@@ -237,63 +287,194 @@
     
     <body>
         <div id="header">
-           <a href="index.html"><div id="logo"><img src="http://i66.tinypic.com/21d7xw.png"></div></a>
+           <a href="index.html"><div id="logo"><img src="http://i67.tinypic.com/2lcmko9.png"></div></a>
         </div>
         <div id="container_bg">
-            <div id="container">
-                <div class="tab_bar">
-                    <a href="index.html"><div class="home">HOME</div></a>
-                    <a href="aboutus.html"><div class="about_us">ABOUT US</div></a>
-                    <a href="projects.html"><div class="projects">PROJECTS</div></a>
-                    <a href="news.html"><div class="news">NEWS</div><a/>
-                    <a href="resources.html"><div class="resources">RESOURCES</div></a>
-                    <a href="contactus.html"><div class="contact_us">CONTACT US</div></a>
+            <div class="tab_container">
+                <div class="tab_bar" align="center">
+                <a href="index.html"><div class="home">HOME</div></a>
+                <a href="aboutus.html"><div class="about_us">ABOUT US</div></a>
+                <a href="projects.html"><div class="projects">PROJECTS</div></a>
+                <a href="news.html"><div class="news">NEWS</div><a/>
+                <a href="resources.html"><div class="resources">RESOURCES</div></a>
+                <a href="contactus.html"><div class="contact_us">CONTACT US</div></a>
                 </div>
-                
+            </div>
+            <div id="container">
                 <div id="main_contents">
                     <ul>
                         <li class="title">About Us</li>
-                        <li class="description"><center><img src="http://www.proprofs.com/quiz-school/topic_images/p19c7ebf8va58mc51mdqteg14453.jpg">
-                        
-
-                        <br><i>One class to rule them all, one scanner object to find them, one array to bring them all, <br>and in the main method bind them</i></center></li>
-                    </ul>
+                        <li><center><img src="https://cdn.makespace.com/s/img/about/team/makespace-team.jpg" class="team_photo"></li>
+                        <li class="description"><br>
+                        The Computer Science Student Association (CSSA) was first established in Auburn, Washington in Spring 2016. We were formed with 
+                        the vision of uniting a community of Computer Science and Engineering students who share a love for programming. Our mission is to create a fun environment for inspired programmers to develop the skills they need to succeed in the professional world. This is achieved through doing team projects that allow our members to explore their technical, creative, and leadership skills. In addition to our team projects, we are also an open forum that welcomes programmers of all skill levels to collaborate, share knowledge, and build a network of peer mentorship. We strive to shape the future of innovation by promoting the growth and development of the next generation of visionaries!
                 </div>
 
                 <!-- Collapsible Panels-->
-                 <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Location and Operations</a>
-                    </h4>
-                  </div>
-                  <div id="collapse1" class="panel-collapse collapse in">
-                    <div class="panel-body">12:00p - 1:00p Daily<br>Technology Center Room 120
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Location and Operations</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                            Technology Center<br>Room 120<br> Auburn Campus <br><br> Daily Meeting Time: 12:00p - 1:00 p<br> Official Meeting Day: Tuesdays
+                            
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Officers and Leaders</a>
-                    </h4>
-                  </div>
-                  <div id="collapse2" class="panel-collapse collapse">
-                    <div class="panel-body">bhttp://i64.tinypic.com/10zz8ds.png<br> http://i64.tinypic.com/awp9w5.png<br> i might need these later (dark green footer/light green footer)</div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Join and get started</a>
-                    </h4>
-                  </div>
-                  <div id="collapse3" class="panel-collapse collapse">
-                    <div class="panel-body">Insert info on how to get started</div>
-                  </div>
-                </div>
-              </div> 
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Officers</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="officer_table" align="center">
+                                    <tr>
+                                        <td><img class="photo" ></td>
+                                        <td width="50px"></td>
+                                        <td valign="top">
+                                            <div id ="officer_title">President</div>
+                                            <div id="officer_names">Nathan Strand</div><br>
+                                            <div id="officer_description">
+                                            <br>
+                                            ......<br>
+                                            ...... <br>
+                                            .....<br>
+                                            <!-- contact links-->
+                                            <a href="enter github link here">
+                                            <img src="http://i67.tinypic.com/rbilok.png"></a> 
+                                            <a href="enter linkin link here">
+                                            <img src="http://i63.tinypic.com/122luv6.png"></a>
+                                            <a href="mailto:enter email here">
+                                            <img src="http://i67.tinypic.com/2621g0p.png"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="photo" src=""/></td>
+                                        <td width="50px"></td>
+                                        <td valign="top">
+                                            <div id="officer_title">Vice President</div>
+                                            <div id="officer_names">Sandy Yohan<div><br>
+                                            <div id="officer_description">
+                                            Major : Computer Engineering</br>
+                                            Email : <a href="mailto:vicepresident@cssa.greenrivertech.net">vicepresident@cssa.greenrivertech.net</a></br>
+                                            ......
+                                            <br>..... 
+                                            <br>
+                                            <!-- contact links-->
+                                            <a href="enter github link here">
+                                            <img src="http://i67.tinypic.com/rbilok.png"></a> 
+                                            <a href="enter linkin link here">
+                                            <img src="http://i63.tinypic.com/122luv6.png"></a>
+                                            <a href="mailto:enter email here">
+                                            <img src="http://i67.tinypic.com/2621g0p.png"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="photo" src=""/></td>
+                                        <td width="50px"></td>
+                                        <td valign="top">
+                                            <div id="officer_title">Design Lead</div>
+                                            <div id="officer_names">Alyssa Leano<div><br>
+                                            <div id="officer_description">
+                                            <br> ....
+                                            <br> ....
+                                            <br> ....
+                                            <br>
+                                            <a href="https://github.com/amsleano">
+                                            <img src="http://i67.tinypic.com/rbilok.png"></a> 
+                                            <a href="https://www.linkedin.com/in/alyssa-leano-13556ba3">
+                                            <img src="http://i63.tinypic.com/122luv6.png"></a>
+                                            <a href="mailto:alyssa.leano@outlook.com">
+                                            <img src="http://i67.tinypic.com/2621g0p.png"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="photo" src=""/></td>
+                                        <td width="50px"></td>
+                                        <td valign="top">
+                                            <div id="officer_title">Webmaster</div>
+                                            <div id="officer_names">Stas Katrechko<div><br>
+                                            <div id="officer_description">
+                                            ......<br>
+                                            ...... <br>
+                                            .....<br>
+                                            <!-- contact links-->
+                                            <a href="enter github link here">
+                                            <img src="http://i67.tinypic.com/rbilok.png"></a> 
+                                            <a href="enter linkin link here">
+                                            <img src="http://i63.tinypic.com/122luv6.png"></a>
+                                            <a href="mailto:enter email here">
+                                            <img src="http://i67.tinypic.com/2621g0p.png"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="photo" src=""/></td>
+                                        <td width="50px"></td>
+                                        <td valign="top">
+                                            <div id="officer_title">Treasurer</div>
+                                            <div id="officer_names">Jia "Vera" Na</div><br>
+                                            <div id="officer_description">
+                                            ......<br>
+                                            ...... <br>
+                                            .....<br>
+                                            ....<br>
+                                            <a href="enter github link here">
+                                            <img src="http://i67.tinypic.com/rbilok.png"></a> 
+                                            <a href="enter linkin link here">
+                                            <img src="http://i63.tinypic.com/122luv6.png"></a>
+                                            <a href="mailto:enter email here">
+                                            <img src="http://i67.tinypic.com/2621g0p.png"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="photo" src=""/></td>
+                                        <td width="50px"></td>
+                                        <td valign="top">
+                                            <div id="officer_title">Head of Marketing</div>
+                                            <div id="officer_names">Andrew Chimbanga<div><br>
+                                            <div id="officer_description">
+                                            ......<br>
+                                            ......<br>
+                                            ......<br>
+                                            .....<br>
+                                            <!-- contact links-->
+                                            <a href="enter github link here">
+                                            <img src="http://i67.tinypic.com/rbilok.png"></a> 
+                                            <a href="enter linkin link here">
+                                            <img src="http://i63.tinypic.com/122luv6.png"></a>
+                                            <a href="mailto:enter email here">
+                                            <img src="http://i67.tinypic.com/2621g0p.png"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Get Started</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">We welcome programmers of all levels to join us, whether you are a seasoned programmer or a novice who is just learning the ropes. We have a spot for you in our team! To join, simply: <br><br> + Visit our <a href="contactus.html"> Contact Us</a> page <br> + Get in touch with one of our Officers <br> + Attend one of our daily meetings
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
         <div id="footer"></div>
