@@ -226,7 +226,7 @@
             }
 			
 			#main_contents ul li.description{
-				font-family: calibri; 
+				font-family: arial; 
 				font-size: 16px;
 			}
             
@@ -252,8 +252,8 @@
 			}
 			
 			#officer_description{
-				font-family: calibri;
-				font-size: 14px;
+				font-family: arial;
+				font-size: 12px;
 			}
 			
 			.photo{
@@ -296,7 +296,11 @@
                     <ul>
                         <li class="title">About Us</li>
                         <li><center><img src="https://cdn.makespace.com/s/img/about/team/makespace-team.jpg" class="team_photo""></li>
-						<li class="description"><br>Computer Science Student Association is ...</li>
+						<li class="description"><br>Computer Science Student Association (CSSA) is a group of students with computer-related majors, 
+						based in Auburn, WA that get together to work on projects and hold technology-related discussions. CSSA currently consists
+						of 20 members, supervised by 2 advisors. As a student association, CSSA accomodates students of any level of programming. It
+						has become our mission to provide opportunity for people to learn from each other through practical works. Come and join us!
+						</li>
 					</ul>
                 </div>
 
@@ -311,7 +315,7 @@
 						<div id="collapse1" class="panel-collapse collapse in">
 							<div class="panel-body">
 							12:00PM - 1:00PM Daily<br>
-							Technology Center Room (TC) 120
+							Green River College Technology Center Room (TC) 120
 							</div>
 						</div>
 					</div>
