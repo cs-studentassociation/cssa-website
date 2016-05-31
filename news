@@ -283,7 +283,7 @@
                     <ul>
                         <li class="title">News</li>
                         <li class="box">
-                            <div>Large box can be used to show an important topic like a latest project </div>
+                            <div><img src="images/news_highlight.png"></div>
                         </li>
                     </ul>
                     
