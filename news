@@ -207,7 +207,7 @@
             }
             
             #main_contents ul li.box{
-                height: 150px;
+                height: 300px;
                 background-color: rgba(240,250,209,1);
             }
 
@@ -229,49 +229,36 @@
             #main_contents ul.test{
                 font-family:Lato;
                 font-size:16px;
-            }
-            
-            #main_contents ul.test li.day{
-                box-sizing: border-box;
-                color:rgb(77, 79, 81);
-                display:list-item;
-                float:left;
-                
-                
-                height:76px;
-                line-height:24px;
+                height:130px;
+				margin-height: 10px;
+				margin-bottom: 10px;
+                line-height:20px;
+                background-color: rgba(240,250,209,1);
                 list-style-image:none;
                 list-style-position:outside;
                 list-style-type:none;
-                margin-bottom:8px;
-                min-height:1px;
-                padding-left:15px;
-                padding-right:15px;
+				}
+            
+            #main_contents ul.test li.day{
+                box-sizing: border-box;
+                display:list-item;
+                float:left;
+				margin-left: 10px;
+				margin-right: 10px;
                 position:relative;
+				vertical-align: middle;
                 text-align:center;
-                width:54.6563px;
+                width:80px;
             }
             
             #main_contents ul.test li.description{
                 box-sizing: border-box;
-                color: rgb(77, 79, 81);
                 display:list-item;
                 float:left;
-                background-color: rgb(129, 168, 95);
                 
-                height:150px;
-                line-height:24px;
-                list-style-image:none;
-                list-style-position:outside;
-                list-style-type:none;
-                margin-bottom:8px;
-                margin-left:0px;
-                min-height:1px;
-                padding-left:15px;
-                padding-right:15px;
                 position:relative;
                 text-align:left;
-                width:800.328px;
+                width:780px;
             }
           
         </style>
@@ -300,33 +287,37 @@
                         </li>
                     </ul>
                     
-                    <ul>
-                    
-                    </ul>
-                    
                     <!-- start: example by nobu -->
 					<!-- small cosmetic change by Peter -->
                     <ul class="test">
                         <li class="day">
-                            <p>day month year</p>
+                            <p>Jun 1<br>2016</p>
                         </li>
                         <li class="description">
-                            <h5>TITLE</h5>
-                            <p>stuff</p>
+                            <p>Our New Website Were Released</p>
+                            <p>We launched our own website. xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx.</p>
                             <div></div>
                         </li>
                     </ul>
-                    <!-- end: example by nobu -->
-					<ul class="test">
-                        <li class="day">
-                            <p>day month year</p>
-                        </li>
-                        <li class="description">
-                            <h5>TITLE</h5>
-                            <p>stuff</p>
-                            <div></div>
-                        </li>
-                    </ul>
+<?php
+	//setlocale(LC_ALL, 'ja_JP.UTF-8');
+	 
+	$file = __DIR__ . '/news.csv';
+	$data = file_get_contents($file);
+	//$data = mb_convert_encoding($data, 'UTF-8', 'sjis-win');
+	$temp = tmpfile();
+	$csv  = array();
+	 
+	fwrite($temp, $data);
+	rewind($temp);
+	 
+	while (($data = fgetcsv($temp, 0, ",")) !== FALSE) {
+		$csv[] = $data;
+	}
+	fclose($temp);
+	 
+	//var_dump($csv);
+?>
                     <!-- end: example by nobu -->
                     <!-- https://sfcollege.collegiatelink.net/organization/tcpc/news-->
                     <!-- the link above is the "template for how our news page will look like"-->
