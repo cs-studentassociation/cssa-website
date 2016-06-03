@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
     <head>
@@ -173,6 +172,61 @@
                 font-weight: bold; 
             }
             
+			/*/// /// /// // 5-18 nav bar projects*/
+			.proj_nav{
+                position:relative;
+				/* top: 0px; */
+                height: 30px;
+                width:100%;
+            }
+			
+			.latest{
+                position: absolute;
+                //top: 30px;
+                left: 600px; 
+                color:rgba(60,60,60,1); 
+                //background-color:rgba(212,212,212,1);
+				font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .latest:hover{
+                color:white; 
+            }
+			
+			.upcoming{
+                position: absolute;
+                //top: 30px;
+                left: 685px; 
+                color:rgba(60,60,60,1);
+				//background-color:rgba(212,212,212,1);				
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .upcoming:hover{
+                color:white; 
+            }
+			
+			.previous{
+                position: absolute;
+                //top: 30px;
+                left: 800px; 
+                color:rgba(60,60,60,1);
+				//background-color:rgba(212,212,212,1);
+                font-family: helvetica; 
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            
+            .previous:hover{ 
+                color:white; 
+            }
+			
+			/// /// /// ^^^
+			
             .main_contents{
                 position: absolute;
                 margin: 20px;
@@ -208,7 +262,7 @@
             }
             
             #main_contents ul li.box{
-                height: 600px;
+                height: 400px;
                 background-color: rgba(240,250,209,1);
             }
 
@@ -222,56 +276,25 @@
                 width: 100%;
             }
 			
-			// 5-18 nav bar projects
-			.proj_nav{
-                position:relative;
+			.proj_img {
+				position: relative;
 				top: 0px;
-                height: 30px;
-                background-color:rgba(2,2,2,2); 
-                width:50%;
-            }
+				left: 30px;
+				align:left;
+			}
 			
-			.latest{
-                position: absolute;
-                //top: -30px;
-                left: 80px; 
-                color:rgba(60,60,60,1); 
-                font-family: helvetica; 
-                font-size: 18px;
-                font-weight: bold; 
-            }
-            
-            .latest:hover{
-                color:white; 
-            }
+			.bullets {
+				position: relative;
+				left: 400px;
+				top: 100px;
+			}
 			
-			.upcoming{
-                position: absolute;
-                //top: -30px;
-                left: 165px; 
-                color:rgba(60,60,60,1); 
-                font-family: helvetica; 
-                font-size: 18px;
-                font-weight: bold; 
-            }
-            
-            .upcoming:hover{
-                color:white; 
-            }
+			h3 {
+				text-align:center;
+				font-style: italic;
+			}
 			
-			.previous{
-                position: absolute;
-                top: -30px;
-                left: 280px; 
-                color:rgba(60,60,60,1); 
-                font-family: helvetica; 
-                font-size: 18px;
-                font-weight: bold; 
-            }
-            
-            .previous:hover{ 
-                color:white; 
-            }
+
           
         </style>
     <head>
@@ -290,19 +313,26 @@
                     <a href="resources.html"><div class="resources">RESOURCES</div></a>
                     <a href="contactus.html"><div class="contact_us">CONTACT US</div></a>
                 </div>
-                
-                <div id="main_contents">
-					<div class="proj_nav">
+				<div class="proj_nav">
 						<a href="//anchor to point on page"><div class="latest">LATEST</div></a>
 						<a href="//anchor to point on page"><div class="upcoming">UPCOMING</div></a>
 						<a href="//anchor to point on page"><div class="previous">PREVIOUS</div></a>
-					</div>
+				</div>
+				
+                <div id="main_contents">
                     <ul>
-                        <li class="title">About Us</li>
-                        <li class="description">Code Club is ..............................................</li>
+                        <li class="title">Projects</li>
+                        <!--<li class="description">Project 1: Club Website</li>-->
                         <li class="box">
-                            <div>Large box can be used to show an important topic like a latest project </div>
-                        </li>
+                            <h3>Project 1: Club Website</h3>
+							<div class="proj_img">
+							<img src="http://blog.monitor.us/wp-content/uploads/2012/04/html2.png" alt="Mountain View" style="width:250px;height:228px;";>
+							</div>
+							<ul class="bullets">
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>							
+						</li>
                     </ul>
                 </div>
                 
